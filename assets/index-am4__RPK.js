@@ -345,7 +345,7 @@ fn fs(@location(0) uv: vec2f) -> @location(0) vec4f {\r
              || (wrapped.y < 1.0) || (wrapped.y > inputSize.y - 1.0);\r
     if (edge) {\r
         // Overlay green by component-wise max\r
-        color = max(color, vec4f(0.0, 1.02, 0.0, color.a));\r
+        color = max(color, vec4f(0.0, 0.02, 0.0, color.a));\r
     }\r
 \r
     return color;\r
