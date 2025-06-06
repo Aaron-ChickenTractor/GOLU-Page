@@ -1,0 +1,17 @@
+{
+  "name": "Game of Life - Universes",
+  "short_name": "GOLU",
+  "description": "Conway's Game of Life with universe exploration",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+} 
