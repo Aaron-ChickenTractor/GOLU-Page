@@ -359,8 +359,8 @@ fn fs(@location(0) uv: vec2f) -> @location(0) vec4f {\r
         \r
         if (nearPixelEdge) {\r
             // Calculate fade-in intensity from 10x to 50x\r
-            let fadeIntensity = clamp((viewport.scale - 10.0) / (50.0 - 10.0), 0.0, 1.0);\r
-            let gridStrength = 0.25 * fadeIntensity; // Max strength at full fade\r
+            let fadeIntensity = clamp((viewport.scale - 8.0) / (50.0 - 10.0), 0.0, 1.0);\r
+            let gridStrength = 0.4 * fadeIntensity; // Max strength at full fade\r
             \r
             // Check if the underlying color is light or dark\r
             let luminance = 0.299 * color.r + 0.587 * color.g + 0.114 * color.b;\r
